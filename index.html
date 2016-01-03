@@ -17,7 +17,7 @@
 
 <body data-spy="scroll" data-target="#my-navbar">
 	<!-- Navbar -->
-	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
     		<div class="navbar-header">
     			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
@@ -26,7 +26,7 @@
     	  			<span class="icon-bar"></span>
     			</button>
 
-    			<a href="" class="navbar-brand">Captains</a>
+    			<a href="views/main.html" class="navbar-brand current">Captains</a>
     		</div><!--End navbar-header-->
     	
     		<div class="collapse navbar-collapse" id="navbar-collapse">
@@ -39,24 +39,13 @@
 
     	</div><!--End container-->
 	</nav><!--End navbar-->
-
-	<!--jumbotron-->
-	<div class="jumbotron">
-  		<div class="container text-center">
-  			<h1>Captains</h1>
-  			<p>Handyman work</p>
-
-  			<div class="btn-group">
-  				<a href="" class="btn btn-lg btn-warning">Schedule Service</a>
-  				<a href="" class="btn btn-lg btn-warning">Read Review</a>
-  			</div>
-  		</div><!--End container-->
-	</div><!--End jumbotron-->
-
-	
   
 	<!--about-->
 	<div class="container">
+		<section id="content">
+			<div id="container"></div>
+		</section>
+
 		<section>
 			<div class="page-header" id="about">
 				<h2>Some Recent Projects</h2>
@@ -196,6 +185,7 @@
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+	<script src="js/content-loader.js"></script>
 </body>
 
 </html>
